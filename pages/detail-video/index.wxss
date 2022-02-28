@@ -1,0 +1,32 @@
+/* pages/detail-video/index.wxss */
+page{
+  padding-top: 225px;
+}
+.video{
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+/* 内容 */
+.info{
+  padding: 30rpx;
+}
+.info .title{
+  font-weight: 700;
+}
+.info .author ,.info .other{
+  font-size: 24rpx;
+  margin-top: 10rpx;
+  color: #666;
+}
+.other .publish-time{
+  margin-left: 15rpx;
+}
+/* 推荐 */
+.recommend{
+  padding: 30rpx;
+}
+.recommend .title{
+  font-size: 32rpx;
+  margin-bottom: 20rpx;
+}
